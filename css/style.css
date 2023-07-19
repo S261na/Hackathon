@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital@200;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.block-content {
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+/* The sidebar menu */
+.sidenav {
+    height: 100%;
+    width: 11%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    margin-top: 35%;
+    padding: 6px 20px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    font-family: "open_sanslight", Arial, sans-serif;
+    font-weight: bold;
+    
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+.block-teaser {
+  margin: -65px -25px;
+}
+
+.block-background-image {
+  background-image: url("../images/kendall.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  padding: 105px 12px;
+}
+
+h1 {
+  display: block;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "titillium-semibold", Arial, sans-serif;
+  color: #fff;
+  margin: 9%;
+  margin-top: 3%;
+}
+
+h3 {
+  color: #fff;
+  font-size: 24px;
+  display: block;
+  font-family: "open_sanslight", Arial, sans-serif;
+  font-weight: normal;
+  margin: 9%;
+  margin-top: -9%;
+  margin-bottom: 200px;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  margin: 9%;
+}
+.block-left button {
+  background-color: white;
+  font-size: 15px;
+  padding: 15px 40px;
+  color: #333333;
+  border: 50px;
+  border-radius: 50px;
+  font-family: "titillium-semibold", Arial, sans-serif;
+  font-weight: 300;
+}
+.block-left button:hover {
+  background-color: rgb(241, 228, 228);
+}
+
+.block-left a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.block-right {
+  color: #fff;
+  font-family: "open_sanslight", Arial, sans-serif;
+  font-size: 13px;
+  position: relative;
+  top: 12px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  padding: 5%;
+  font-family: "titillium-semibold", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.menu li a {
+  color: #333333;
+  left: 1px;
+  padding: 22px 25px 20px;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.photo {
+  width: 132px;
+  height: 132px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.personPhoto {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.menu-first {
+  margin-left: 10%;
+}
+.menu ul:hover {
+  color: #908b8b;
+}
+
+.menu-second {
+  margin-right: 10%;
+}
+.menu ul:hover {
+  color: #908b8b;
+}
+
+.block-about1 p {
+  width: 85%;
+}
+
+.block-title {
+  font-size: 20px;
+  color: #333333;
+  font-family: "titilliumlight_upright", Arial, sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.animation h2 {
+  color: black;
+  font-family: "open_sanslight", Arial, sans-serif;
+  overflow: hidden;
+  border-right: 0.17em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.17em;
+  animation: typing 3.5s steps(30, end), blink-caret 0.7s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+  } */
+.block-about1 h5 {
+  font-size: 28px;
+  color: #333333;
+  font-family: "open_sanslight", Arial, sans-serif;
+  font-weight: 100;
+}
+.block-about1 p {
+  font-family: "open_sanslight", Arial, sans-serif;
+  font-weight: 100;
+}
+.block-about {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8%;
+}
+.block-about2 {
+  margin-right: 10%;
+}
+.block-about2 ul {
+  list-style: none;
+  width: 100%;
+  margin-top: 26%;
+  font-family: "open_sanslight", Arial, sans-serif;
+}
+
+.about h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "open_sanslight", Arial, sans-serif;
+  text-align: center;
+}
+
+.skills .box {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  column-width: 150px;
+  justify-content: center;
+  align-items: center;
+}
+.skills .box h4 {
+  text-transform: uppercase;
+  color: #908b8b;
+  font-weight: normal;
+  font-family: "open_sanslight", Arial, sans-serif;
+}
+.skills .box .percent {
+  position: relative;
+  width: 60%;
+  height: 10px;
+  background: #908b8b;
+}
+/* @keyframes changeColor {
+    0% {
+      background-color:  #333333;
+    }
+    100% {
+        background-color: #908b8b;
+    }
+  } */
+/* .skills .box .percent {
+    animation: changeColor 2s infinite;
+    animation-direction:alternate-reverse;
+  } */
+.skills .box .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #333333;
+}
+
+
+footer {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+  color: #fff;
+  height: 100px;
+  width: auto;
+  margin-left: 0;
+  margin-top: 12%;
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+
+footer .nav-footer {
+  color: black;
+  font-family: "open_sanslight", Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  cursor: pointer;
+  
+}
+
+.nav-footer li:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+.nav-footer a {
+  text-decoration: none;
+}
